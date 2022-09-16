@@ -1,5 +1,6 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 *{
     margin: 0;
@@ -257,7 +258,31 @@ section .title::after{
     color: #00f2f2;
     background: none;
 }
-
+.aboutcat{
+    font-family: ;
+    color: #40ff4e;
+    font-weight: 1px;
+}
+.aboutpar{
+    background-color: #202020;
+    border-radius: 6px;
+    padding: 10px;
+}
+.para{
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 19px;
+}
+.paraerror{
+    color: #ff000a;
+    font-weight: bold;
+}/*
+.aboutbox{
+    height: 50px;
+    width: 55%;
+    position: absolute;
+    color: #616161;
+}*/
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -378,6 +403,7 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 30%;
 }
+
 
 /* teams section styling */
 .teams .title::after{
